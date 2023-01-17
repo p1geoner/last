@@ -593,6 +593,7 @@ header {
 /* compare__accardion */
 .compare__tab {
   margin-top: 40px;
+  min-width: 900px;
 }
 .compare__tabs_container {
 }
@@ -651,6 +652,13 @@ header {
 
   color: #1e2022;
   width: 260px;
+  text-overflow: clip;
+  position: inherit;
+  white-space: nowrap;
+  overflow: visible;
+}
+.tabs-body__flex-text {
+  overflow: visible;
 }
 /* /compare__accardion */
 /* /main */

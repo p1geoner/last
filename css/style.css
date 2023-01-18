@@ -955,6 +955,9 @@ footer {
   /* /footer */
 }
 @media (max-width: 920px) {
+  .hr {
+    display: none;
+  }
   .header__navigation {
     gap: 5%;
   }
